@@ -1,0 +1,36 @@
+Int array clubs = {1, 2, 3, 4, 5, 6, 7, 8} // the values of this array will be given from a text file and the number of elements in the array will differ
+Int D = 4 // D will also be given in a text file for each test case and will differ
+Int *array = {array day1, array day2, array day3, array day4}
+Int array sum = {0, 0, 0, 0, 0, 0, 0, 0, 0} // this should equal the total elements in array clubs + 1
+
+For (int i = 0; i < 10; i++) {
+// this is what int i = 0 would look like
+	Day1 = {0}
+	Day2 = {0}
+	Day3 = {0}
+	Day4 = {clubs[0],...,clubs[7]}
+	
+	Check to see what Day sums to the highest,
+	Add that number to int sum[i]
+
+//iterate i by 1, so now i = 1, and go through following code
+Day1 = {0}
+	Day2 = {0}
+	Day3 = {club[0]}
+	Day4 = {clubs[1],...,clubs[7]}
+	Check to see what Day sums to the highest,
+	Add that number to int sum[i]
+
+//iterate i by 1, so now i = 2, and go through following code
+Day1 = {0}
+	Day2 = {club[0]}
+	Day3 = {club[1]}
+	Day4 = {clubs[2],...,clubs[7]}
+	Check to see what Day sums to the highest,
+	Add that number to int sum[i]
+
+// keep going until i== elements in club array
+
+}
+
+Compare all the values in int sum array and return max value
